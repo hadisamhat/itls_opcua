@@ -1,0 +1,12 @@
+prefix=/home/user/freeopcua/install/freeopcua
+exec_prefix=/home/user/freeopcua/install/freeopcua
+libdir=/home/user/freeopcua/install/freeopcua/lib
+includedir=/home/user/freeopcua/install/freeopcua/include
+extra_cflags=-DHAVE_SYSTEM_SPDLOG
+
+Name: libopcuacore
+Description: Opcua core infrastructure.
+Version: 
+Cflags: -I${includedir} ${extra_cflags}
+Libs: -L${libdir} -lopcuaclient
+
